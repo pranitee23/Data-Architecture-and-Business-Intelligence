@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" internalId="_m5Q7wPVhEe65Z_lEJK_unQ" name="target_ssms_final1_Login" prompt="target_ssms_final1_Login?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="damg7370"/>
+    <contextParameter comment="" internalId="_m5Q7wfVhEe65Z_lEJK_unQ" name="target_ssms_final1_Database" prompt="target_ssms_final1_Database?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="Project_Final"/>
+    <contextParameter comment="" internalId="_m5Q7wvVhEe65Z_lEJK_unQ" name="target_ssms_final1_Port" prompt="target_ssms_final1_Port?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_m5Q7w_VhEe65Z_lEJK_unQ" name="target_ssms_final1_Schema" prompt="target_ssms_final1_Schema?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="dbo"/>
+    <contextParameter comment="" internalId="_m5Q7xPVhEe65Z_lEJK_unQ" name="target_ssms_final1_Password" prompt="target_ssms_final1_Password?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_Password" value="enc:system.encryption.key.v1:ONnzz5qlxedUUzmvRlK59F5efY5j4AdEvYGVcEOpuu5dDcKP+w=="/>
+    <contextParameter comment="" internalId="_m5Q7xfVhEe65Z_lEJK_unQ" name="target_ssms_final1_AdditionalParams" prompt="target_ssms_final1_AdditionalParams?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_m5Q7xvVhEe65Z_lEJK_unQ" name="target_ssms_final1_Server" prompt="target_ssms_final1_Server?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="DESKTOP-F69I17S"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="Prod">
+    <contextParameter comment="" internalId="_m5Q7x_VhEe65Z_lEJK_unQ" name="target_ssms_final1_Login" prompt="target_ssms_final1_Login?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="damg7370"/>
+    <contextParameter comment="" internalId="_m5Q7yPVhEe65Z_lEJK_unQ" name="target_ssms_final1_Database" prompt="target_ssms_final1_Database?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="Project_Final"/>
+    <contextParameter comment="" internalId="_m5Q7yfVhEe65Z_lEJK_unQ" name="target_ssms_final1_Port" prompt="target_ssms_final1_Port?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_m5Q7yvVhEe65Z_lEJK_unQ" name="target_ssms_final1_Schema" prompt="target_ssms_final1_Schema?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="dbo"/>
+    <contextParameter comment="" internalId="_m5Q7y_VhEe65Z_lEJK_unQ" name="target_ssms_final1_Password" prompt="target_ssms_final1_Password?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_Password" value="enc:system.encryption.key.v1:5pqnEDeNacv0I7AfkW65e4eQE5vLnBGiJFFl2xRRNTi2ye0+PA=="/>
+    <contextParameter comment="" internalId="_m5Q7zPVhEe65Z_lEJK_unQ" name="target_ssms_final1_AdditionalParams" prompt="target_ssms_final1_AdditionalParams?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_m5Q7zfVhEe65Z_lEJK_unQ" name="target_ssms_final1_Server" prompt="target_ssms_final1_Server?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="DESKTOP-F69I17S"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="Dev">
+    <contextParameter comment="" internalId="_m5TYAPVhEe65Z_lEJK_unQ" name="target_ssms_final1_Login" prompt="target_ssms_final1_Login?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="damg7370"/>
+    <contextParameter comment="" internalId="_m5TYAfVhEe65Z_lEJK_unQ" name="target_ssms_final1_Database" prompt="target_ssms_final1_Database?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="Project_Final"/>
+    <contextParameter comment="" internalId="_m5TYAvVhEe65Z_lEJK_unQ" name="target_ssms_final1_Port" prompt="target_ssms_final1_Port?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_m5TYA_VhEe65Z_lEJK_unQ" name="target_ssms_final1_Schema" prompt="target_ssms_final1_Schema?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="dbo"/>
+    <contextParameter comment="" internalId="_m5TYBPVhEe65Z_lEJK_unQ" name="target_ssms_final1_Password" prompt="target_ssms_final1_Password?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_Password" value="enc:system.encryption.key.v1:8+dsNeDj/SKtOZvPmWoEezE0X3S7VZGsJXoK1VnvJrRcni3OIw=="/>
+    <contextParameter comment="" internalId="_m5TYBfVhEe65Z_lEJK_unQ" name="target_ssms_final1_AdditionalParams" prompt="target_ssms_final1_AdditionalParams?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_m5TYBvVhEe65Z_lEJK_unQ" name="target_ssms_final1_Server" prompt="target_ssms_final1_Server?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="DESKTOP-F69I17S"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="Test">
+    <contextParameter comment="" internalId="_m5TYB_VhEe65Z_lEJK_unQ" name="target_ssms_final1_Login" prompt="target_ssms_final1_Login?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="damg7370"/>
+    <contextParameter comment="" internalId="_m5TYCPVhEe65Z_lEJK_unQ" name="target_ssms_final1_Database" prompt="target_ssms_final1_Database?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="Project_Final"/>
+    <contextParameter comment="" internalId="_m5TYCfVhEe65Z_lEJK_unQ" name="target_ssms_final1_Port" prompt="target_ssms_final1_Port?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_m5TYCvVhEe65Z_lEJK_unQ" name="target_ssms_final1_Schema" prompt="target_ssms_final1_Schema?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="dbo"/>
+    <contextParameter comment="" internalId="_m5TYC_VhEe65Z_lEJK_unQ" name="target_ssms_final1_Password" prompt="target_ssms_final1_Password?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_Password" value="enc:system.encryption.key.v1:tNmS43rfBN+vxUE4svAPASrRsl5PuHp4piWmQisCMkJiW0Cyyw=="/>
+    <contextParameter comment="" internalId="_m5TYDPVhEe65Z_lEJK_unQ" name="target_ssms_final1_AdditionalParams" prompt="target_ssms_final1_AdditionalParams?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_m5TYDfVhEe65Z_lEJK_unQ" name="target_ssms_final1_Server" prompt="target_ssms_final1_Server?" promptNeeded="false" repositoryContextId="_bg-rUPVVEe6l4-LWjqacTA" type="id_String" value="DESKTOP-F69I17S"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:5NL/Q8T2XYcCPehCT+9oV/8ndFQgXZC5FyY+Pp8x"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/Admin/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Nlo/XRP2+vZ+ZwYjiPKWqjVLenTf7UTufm1fdVbo"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_MrtOUO-xEe6A98cX1EhPxA" name="DataOperation"/>
+    <routinesParameter id="_Mr0jEO-xEe6A98cX1EhPxA" name="Mathematical"/>
+    <routinesParameter id="_Mr7QwO-xEe6A98cX1EhPxA" name="Numeric"/>
+    <routinesParameter id="_MsBXYO-xEe6A98cX1EhPxA" name="Relational"/>
+    <routinesParameter id="_MpWd4O-xEe6A98cX1EhPxA" name="SQLike"/>
+    <routinesParameter id="_MsGP4O-xEe6A98cX1EhPxA" name="StringHandling"/>
+    <routinesParameter id="_MsM9kO-xEe6A98cX1EhPxA" name="TalendDataGenerator"/>
+    <routinesParameter id="_MsTEMO-xEe6A98cX1EhPxA" name="TalendDate"/>
+    <routinesParameter id="_MseDUO-xEe6A98cX1EhPxA" name="TalendStringUtil"/>
+    <routinesParameter id="_MsZK0O-xEe6A98cX1EhPxA" name="TalendString"/>
+  </parameters>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_OQZmEPVVEe6l4-LWjqacTA"/>
+    <elementParameter field="TEXT" name="HOST" value="context.target_ssms_final1_Server"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.target_ssms_final1_Port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.target_ssms_final1_Schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.target_ssms_final1_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.target_ssms_final1_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3Y/bQZiOiQynuUeMakSAMcw0xwcyJL2Cro80pgbGxlvojhi2zmyMdFtQ3yR/TaGbJlzHnxfPlLn7ihN6fdO+"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_OQZmEPVVEe6l4-LWjqacTA - vehicles_involved_austin_stg"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;vehicles_involved_austin_stg&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_austin_stg.crash_id,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_austin_stg.vehicle_type,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_austin_stg.DI_created_at,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_austin_stg.DI_workflow_name,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_austin_stg.PID&quot;&#10;+&quot;&#10;FROM&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_austin_stg&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.target_ssms_final1_AdditionalParams"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="crash_id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="vehicle_type"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_created_at"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_workflow_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="vehicles_involved_austin_stg" name="tDBInput_1">
+      <column comment="" key="false" length="255" name="crash_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="vehicle_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="DI_created_at" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="DI_workflow_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="PID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="256" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_7jd24PPVEe6BGrL0yDPQ1w-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="austin_dim_vehicles_involved">
+      <column comment="" key="false" length="100" name="collision_id" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="vehicle_type" nullable="true" originalLength="50" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="DI_created_at" nullable="true" originalLength="25" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="DI_workflow_name" nullable="true" originalLength="25" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="PID" nullable="true" originalLength="25" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="austin_dim_vehicles_involved" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.crash_id " name="collision_id" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.vehicle_type.trim().toLowerCase()" name="vehicle_type" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="TalendDate.getCurrentDate() " name="DI_created_at" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="&quot;vehicle_type_dim_austin&quot;" name="DI_workflow_name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="pid" name="PID" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="crash_id" nullable="true" type="id_String"/>
+        <mapperTableEntries name="vehicle_type" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DI_created_at" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="DI_workflow_name" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PID" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tUnite" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tUnite_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tUnite_1">
+      <column comment="" key="false" length="100" name="collision_id" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="vehicle_type" nullable="true" originalLength="50" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="DI_created_at" nullable="true" originalLength="25" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="DI_workflow_name" nullable="true" originalLength="25" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="PID" nullable="true" originalLength="25" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="8" offsetLabelY="0" posX="320" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_3"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_7jd24PPVEe6BGrL0yDPQ1w-tMap_3-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="veh1" name="copyOfveh1">
+      <column comment="" key="false" length="100" name="collision_id" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="vehicle_type" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="DI_created_at" nullable="true" originalLength="25" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="DI_workflow_name" nullable="true" originalLength="25" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="PID" nullable="true" originalLength="25" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="copyOfveh1" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="String.valueOf(row3.COLLISION_ID)" name="collision_id" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.vehicle_type.trim().toLowerCase()" name="vehicle_type" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="TalendDate.getCurrentDate() " name="DI_created_at" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="&quot;vehicle_type_dim_ny&quot;" name="DI_workflow_name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="pid" name="PID" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row3" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="COLLISION_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="vehicle_type" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DI_created_at" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="DI_workflow_name" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PID" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="224" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_6"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_7jd24PPVEe6BGrL0yDPQ1w-tMap_6-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="chicago_dim_vehicles_involved">
+      <column comment="" key="false" length="255" name="collision_id" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="vehicle_type" nullable="true" originalLength="25" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="DI_created_at" nullable="true" originalLength="25" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="DI_workflow_name" nullable="true" originalLength="25" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="PID" nullable="true" originalLength="25" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="chicago_dim_vehicles_involved" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row4.CRASH_RECORD_ID " name="collision_id" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;NA&quot;.toLowerCase() " name="vehicle_type" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="TalendDate.getCurrentDate() " name="DI_created_at" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="&quot;vehicle_type_dim_chicago&quot;" name="DI_workflow_name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="pid" name="PID" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row4" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="CRASH_RECORD_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="vehicle_type" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DI_created_at" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="DI_workflow_name" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PID" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="704" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_5"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_7jd24PPVEe6BGrL0yDPQ1w-tMap_5-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="Fact_VehiclesInvolved" name="copyOfvehicle_type_fact">
+      <column comment="" key="false" length="10" name="VehicleTypeSK" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="collision_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="DI_created_at" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="DI_workflow_name" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="PID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="copyOfvehicle_type_fact" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row5.VehicleTypeSK " name="VehicleTypeSK" type="id_Integer"/>
+        <mapperTableEntries expression="row2.collision_id " name="collision_id" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="TalendDate.getCurrentDate() " name="DI_created_at" type="id_Date"/>
+        <mapperTableEntries expression="row2.DI_workflow_name " name="DI_workflow_name" type="id_String"/>
+        <mapperTableEntries expression="pid" name="PID" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="collision_id" nullable="true" type="id_String"/>
+        <mapperTableEntries name="vehicle_type" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DI_created_at" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="DI_workflow_name" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PID" nullable="true" type="id_String"/>
+      </inputTables>
+      <inputTables activateCondensedTool="true" innerJoin="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row5" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="VehicleTypeSK" type="id_Integer"/>
+        <mapperTableEntries expression="row2.vehicle_type " name="vehicle_type" nullable="true" operator="=" type="id_String"/>
+        <mapperTableEntries name="DI_created_at" type="id_Date"/>
+        <mapperTableEntries name="DI_workflow_name" type="id_String"/>
+        <mapperTableEntries name="PID" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_OQZmEPVVEe6l4-LWjqacTA"/>
+    <elementParameter field="TEXT" name="HOST" value="context.target_ssms_final1_Server"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.target_ssms_final1_Port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.target_ssms_final1_Schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.target_ssms_final1_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.target_ssms_final1_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ww4ZBkahCfxozSo8KaLt1//agWm9Kgyc2rKpN9xXvgh3koKmB+TJwi9GD+gfqYVi1rQgUIzOxlENHOjptZpl"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_OQZmEPVVEe6l4-LWjqacTA - vehicles_involved_ny_stg"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;vehicles_involved_ny_stg&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_ny_stg.COLLISION_ID,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_ny_stg.vehicle_type,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_ny_stg.DI_created_at,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_ny_stg.DI_workflow_name,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_ny_stg.PID&quot;&#10;+&quot;&#10;FROM&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_ny_stg&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.target_ssms_final1_AdditionalParams"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="COLLISION_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="vehicle_type"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_created_at"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_workflow_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="vehicles_involved_ny_stg" name="tDBInput_3">
+      <column comment="" key="false" length="10" name="COLLISION_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="vehicle_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="DI_created_at" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="DI_workflow_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="PID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_OQZmEPVVEe6l4-LWjqacTA"/>
+    <elementParameter field="TEXT" name="HOST" value="context.target_ssms_final1_Server"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.target_ssms_final1_Port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.target_ssms_final1_Schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.target_ssms_final1_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.target_ssms_final1_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MvgnjGIk0LR7hXcBgZwS9lMNa4Ee+P8OIhDiM9ZOaY+ImYrPSplLV/XYojc/maijFR+0sWESE9Mqiieopa8n"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_OQZmEPVVEe6l4-LWjqacTA - vehicles_involved_chicago_stg"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;vehicles_involved_chicago_stg&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_chicago_stg.CRASH_RECORD_ID,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_chicago_stg.vehicle_type,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_chicago_stg.DI_created_at,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_chicago_stg.DI_workflow_name,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_chicago_stg.PID&quot;&#10;+&quot;&#10;FROM&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.vehicles_involved_chicago_stg&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.target_ssms_final1_AdditionalParams"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="CRASH_RECORD_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="vehicle_type"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_created_at"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_workflow_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="vehicles_involved_chicago_stg" name="tDBInput_2">
+      <column comment="" key="false" length="255" name="CRASH_RECORD_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="vehicle_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="DI_created_at" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="DI_workflow_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="PID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_OQZmEPVVEe6l4-LWjqacTA"/>
+    <elementParameter field="TEXT" name="HOST" value="context.target_ssms_final1_Server"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.target_ssms_final1_Port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.target_ssms_final1_Schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.target_ssms_final1_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.target_ssms_final1_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:4j4t0H++wiku0YXKrTP3sOD3w8gVeRYTx53pYPO58CO/sqn1pBNCKWCF5p6uFB1WgtqPqfVK+u9/FjXy3f2M"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_OQZmEPVVEe6l4-LWjqacTA - Dim_Vehicle_Type"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Dim_Vehicle_Type&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.Dim_Vehicle_Type.VehicleTypeSK,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.Dim_Vehicle_Type.vehicle_type,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.Dim_Vehicle_Type.DI_created_at,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.Dim_Vehicle_Type.DI_workflow_name,&#10;&#9;&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.Dim_Vehicle_Type.PID&quot;&#10;+&quot;&#10;FROM&#9;\&quot;&quot;+context.target_ssms_final1_Schema+&quot;\&quot;.Dim_Vehicle_Type&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.target_ssms_final1_AdditionalParams"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="VehicleTypeSK"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="vehicle_type"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_created_at"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_workflow_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="Dim_Vehicle_Type" name="tDBInput_4">
+      <column comment="" key="true" length="10" name="VehicleTypeSK" nullable="false" pattern="" precision="0" sourceType="INT IDENTITY" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="vehicle_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="DI_created_at" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="DI_workflow_name" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="PID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_OQZmEPVVEe6l4-LWjqacTA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="HOST" value="context.target_ssms_final1_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.target_ssms_final1_Port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.target_ssms_final1_Schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.target_ssms_final1_Database"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="USER" value="context.target_ssms_final1_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:aOQYPV7Hv66HWPuM7/0o5wJ36obZmBtRn9YVk94GbISCSKKORAIXHcXP41QJleGh3tnDbuV/D8jqYgomfCcA"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Fact_VehiclesInvolved&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns"/>
+    <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" show="false" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" show="false" value="VehicleTypeSK"/>
+    <elementParameter field="TEXT" name="START_VALUE" show="false" value="1"/>
+    <elementParameter field="TEXT" name="STEP" show="false" value="1"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.target_ssms_final1_AdditionalParams"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="VehicleTypeSK"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="collision_id"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_created_at"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_workflow_name"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="IGNORE_DATE_OUTOF_RANGE" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="Fact_VehiclesInvolved" name="tDBOutput_1">
+      <column comment="" key="false" length="10" name="VehicleTypeSK" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="collision_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="DI_created_at" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="DI_workflow_name" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="PID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <metadata connector="REJECT" label="Fact_VehiclesInvolved" name="REJECT">
+      <column comment="" key="false" length="10" name="VehicleTypeSK" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="collision_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="DI_created_at" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="DI_workflow_name" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="PID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="austin_dim_vehicles_involved" lineStyle="10" mergeOrder="1" metaname="austin_dim_vehicles_involved" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tUnite_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="austin_dim_vehicles_involved"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tUnite_1" offsetLabelX="0" offsetLabelY="0" source="tUnite_1" target="tMap_5">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="FLOW" label="copyOfveh1" lineStyle="10" mergeOrder="2" metaname="copyOfveh1" offsetLabelX="50" offsetLabelY="0" source="tMap_3" target="tUnite_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="copyOfveh1"/>
+  </connection>
+  <connection connectorName="FLOW" label="chicago_dim_vehicles_involved" lineStyle="10" mergeOrder="3" metaname="chicago_dim_vehicles_involved" offsetLabelX="0" offsetLabelY="0" source="tMap_6" target="tUnite_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="chicago_dim_vehicles_involved"/>
+  </connection>
+  <connection connectorName="FLOW" label="copyOfvehicle_type_fact" lineStyle="0" metaname="copyOfvehicle_type_fact" offsetLabelX="0" offsetLabelY="0" source="tMap_5" target="tDBOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="copyOfvehicle_type_fact"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" source="tDBInput_3" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_6">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+  </connection>
+  <connection connectorName="FLOW" label="row5" lineStyle="8" metaname="tDBInput_4" offsetLabelX="0" offsetLabelY="0" source="tDBInput_4" target="tMap_5">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_007acbaf-a698-4795-90d8-39a988564fa0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>t6dlGmSiQ+RzqSTg/lIyDZQ0Hq8CJGp2DOPdpPjIrrip6byh4fWa/A0CbDj7v7BUNv1vkM6Axfcl&#13;
+0ZGWT3dd0A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2ef6a6a1-c25d-4afa-aefb-0ca98b7dc84e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jrpRCYdPG1MwVtoA754yycxd7VKwn+hXZIhp+gDir+knYYNWnmNtdi5cEXyWQW4hba6mhmqIKOiz&#13;
+e+J6fELWVA==</DigestValue></Reference></SignedInfo><SignatureValue>d5qRhPWCmgY4FgXaafTOPpUoL60rwE3aK75mcR+6gG96uU/wasGAogugMYY2Gk5W9jrtJZjxYKcU&#13;
+fYpelmyhX0DLb0/1H3Xuo2TanxKulPoXNuobBWHGvzGJXG27cix5p4KvFUBCIFUjsNfWVa+a46Ni&#13;
+S5jyeXTY3rxBynSJoxf/FxGhibK7X6nnXF1VYroQWEKjRyKly1PCUSYaChNTDeN0SCXCSBFJvbDK&#13;
+R0c+abLauwA8lpsUB9y07Pg+Qrzjm5a7NZI/1X5/3WK5VRY8qJctHcZC9ZRVQjVmdFLwaZFEFfrc&#13;
+/RNR1pYKM7JYoFUuPoW8izlYE+92afbR65O9lA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2ef6a6a1-c25d-4afa-aefb-0ca98b7dc84e" Target="#_007acbaf-a698-4795-90d8-39a988564fa0"><Timestamp>2024-04-08 06:47:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

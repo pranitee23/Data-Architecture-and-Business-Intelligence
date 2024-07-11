@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_f22d0PTxEe63BpWkTMLhHw">
+    <contextParameter comment="" name="Mapping_Data__Header" prompt="Mapping_Data__Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_f22d0fTxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__RowSeparator" prompt="Mapping_Data__RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_f22d0vTxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__File" prompt="Mapping_Data__File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Admin/Downloads/Contributing Factor Mapping.csv" xmi:id="_f22d0_TxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__FieldSeparator" prompt="Mapping_Data__FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_f22d1PTxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__Encoding" prompt="Mapping_Data__Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="US-ASCII" xmi:id="_f22d1fTxEe63BpWkTMLhHw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Dev" xmi:id="_f22d1vTxEe63BpWkTMLhHw">
+    <contextParameter comment="" name="Mapping_Data__Header" prompt="Mapping_Data__Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_f22d1_TxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__RowSeparator" prompt="Mapping_Data__RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_f22d2PTxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__File" prompt="Mapping_Data__File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Admin/Downloads/Contributing Factor Mapping.csv" xmi:id="_f22d2fTxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__FieldSeparator" prompt="Mapping_Data__FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_f22d2vTxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__Encoding" prompt="Mapping_Data__Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="US-ASCII" xmi:id="_f22d2_TxEe63BpWkTMLhHw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Prod" xmi:id="_f22d3PTxEe63BpWkTMLhHw">
+    <contextParameter comment="" name="Mapping_Data__Header" prompt="Mapping_Data__Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_f22d3fTxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__RowSeparator" prompt="Mapping_Data__RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_f22d3vTxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__File" prompt="Mapping_Data__File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Admin/Downloads/Contributing Factor Mapping.csv" xmi:id="_f22d3_TxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__FieldSeparator" prompt="Mapping_Data__FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_f22d4PTxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__Encoding" prompt="Mapping_Data__Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="US-ASCII" xmi:id="_f22d4fTxEe63BpWkTMLhHw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Test" xmi:id="_f22d4vTxEe63BpWkTMLhHw">
+    <contextParameter comment="" name="Mapping_Data__Header" prompt="Mapping_Data__Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_f22d4_TxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__RowSeparator" prompt="Mapping_Data__RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_f22d5PTxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__File" prompt="Mapping_Data__File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Admin/Downloads/Contributing Factor Mapping.csv" xmi:id="_f22d5fTxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__FieldSeparator" prompt="Mapping_Data__FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_f22d5vTxEe63BpWkTMLhHw"/>
+    <contextParameter comment="" name="Mapping_Data__Encoding" prompt="Mapping_Data__Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="US-ASCII" xmi:id="_f22d5_TxEe63BpWkTMLhHw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fb63dd39-1a12-426a-ad18-b115818704ac"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>M3HcM7PqjSf85eBm9c/exFTc0A7weeQEuBuxESbMgv5GAqZ9h1FFEeBcPrWr0KKRfF74hXfgtOqH&#13;
+I9JH3/aWzg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_093d4169-123b-4ef9-a36c-c34d46ed8f9d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9nphN90S2TrPtsoA9bkogL+0e2IH3SrjmiEKJkcF0Hs1d3gDDOKCX88veWbiAXdk70Vv8NXf32pS&#13;
+RT7hxhddpA==</DigestValue></Reference></SignedInfo><SignatureValue>PzZFE+winMXX1JC9da51P9yR7NbWsHTxTHe9d4Ut+DmFxNB43u5V6Uo/UbVEC3M36V7PgjOQ1RqJ&#13;
+O7muCRB7uW/ogY7TwdDG01I5ENUecd9VPQHg7l351FxM0klCLMajtvuoXXSNAlEMh5aCy4ScmM6l&#13;
+ohPK8Mv9yG81MN40BoE0i9tY2rFS4bK9Y6H0u/RdcJ5QQaCKr8rx9kdgLYw72AJZJafwdUAdtkYP&#13;
+5W5dOVzYVjzEmjEq/4xzbV/+6UMPbPOOe7DpjwLCLKGXFNlDyrl9OzYSxIks899aDnYVXIBueRv2&#13;
+mTgE4ZazOcLNzd7hzwJMINNU0XOafwtXJYHTgQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_093d4169-123b-4ef9-a36c-c34d46ed8f9d" Target="#_fb63dd39-1a12-426a-ad18-b115818704ac"><Timestamp>2024-04-07 15:14:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
