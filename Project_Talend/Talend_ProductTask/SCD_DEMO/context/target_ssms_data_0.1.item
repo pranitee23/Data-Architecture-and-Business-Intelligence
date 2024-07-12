@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_Acg-wOo5Ee6vwKtf1S7T1g">
+    <contextParameter comment="" name="target_ssms_data_Server" prompt="target_ssms_data_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="PRANITEE" xmi:id="_Acg-weo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Database" prompt="target_ssms_data_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="data_product" xmi:id="_Acg-wuo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Password" prompt="target_ssms_data_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:3H20ejBXK8TIQGYbaO9HAujD6CDeMlXwczWBdEKVCaX6Q0Ap" xmi:id="_Acg-w-o5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Port" prompt="target_ssms_data_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433" xmi:id="_Acg-xOo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Schema" prompt="target_ssms_data_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="dbo" xmi:id="_Acg-xeo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_AdditionalParams" prompt="target_ssms_data_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_Acg-xuo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Login" prompt="target_ssms_data_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="damg7370" xmi:id="_Acg-x-o5Ee6vwKtf1S7T1g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="dev" xmi:id="_Acg-yOo5Ee6vwKtf1S7T1g">
+    <contextParameter comment="" name="target_ssms_data_Server" prompt="target_ssms_data_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="PRANITEE" xmi:id="_Acg-yeo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Database" prompt="target_ssms_data_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="data_product" xmi:id="_Acg-yuo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Password" prompt="target_ssms_data_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:ubc2erxWWdxlRbTk3DbAfUptpBTcanH8SLQ1bw4QX0meWDbq" xmi:id="_Acg-y-o5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Port" prompt="target_ssms_data_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433" xmi:id="_Acg-zOo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Schema" prompt="target_ssms_data_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="dbo" xmi:id="_Acg-zeo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_AdditionalParams" prompt="target_ssms_data_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_Acg-zuo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Login" prompt="target_ssms_data_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="damg7370" xmi:id="_Acg-z-o5Ee6vwKtf1S7T1g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_Acg-0Oo5Ee6vwKtf1S7T1g">
+    <contextParameter comment="" name="target_ssms_data_Server" prompt="target_ssms_data_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="PRANITEE" xmi:id="_Acg-0eo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Database" prompt="target_ssms_data_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="data_product" xmi:id="_Acg-0uo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Password" prompt="target_ssms_data_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:JXeuHcFpeALtl33Y7B6FoJ75pLIrEPBpdsca0lwHL3dO+jIB" xmi:id="_Acg-0-o5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Port" prompt="target_ssms_data_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433" xmi:id="_Acg-1Oo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Schema" prompt="target_ssms_data_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="dbo" xmi:id="_Acg-1eo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_AdditionalParams" prompt="target_ssms_data_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_Acg-1uo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Login" prompt="target_ssms_data_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="damg7370" xmi:id="_Acg-1-o5Ee6vwKtf1S7T1g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="test" xmi:id="_Acg-2Oo5Ee6vwKtf1S7T1g">
+    <contextParameter comment="" name="target_ssms_data_Server" prompt="target_ssms_data_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="PRANITEE" xmi:id="_Acg-2eo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Database" prompt="target_ssms_data_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="data_product" xmi:id="_Acg-2uo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Password" prompt="target_ssms_data_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:H15z051Dd1nfY2Ac7MyISyNceXtR4NNIEJS5KG0IZQ3wWRT+" xmi:id="_Acg-2-o5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Port" prompt="target_ssms_data_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433" xmi:id="_Acg-3Oo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Schema" prompt="target_ssms_data_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="dbo" xmi:id="_Acg-3eo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_AdditionalParams" prompt="target_ssms_data_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_Acg-3uo5Ee6vwKtf1S7T1g"/>
+    <contextParameter comment="" name="target_ssms_data_Login" prompt="target_ssms_data_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="damg7370" xmi:id="_Acg-3-o5Ee6vwKtf1S7T1g"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9131352d-9618-4eb4-a453-4f153d323109"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xZ6BeNS/drdXjKb07avwMyY8no48MER+SgBl7iC6mO5OVzMVt0nbLACqy0myXb+Qz6/w2yHKptqG&#13;
+ZWKpRtzJ5A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6d21d470-edab-46f0-b464-166a111861e4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eIX9vxLg2gftHFVZp/berWyC03kXf+6wPpE32PZzJgPbOWZlV+shKzvAst4/Ky1S4YahS5Thpmzx&#13;
+78h3g7yiqQ==</DigestValue></Reference></SignedInfo><SignatureValue>FVHHFsq0ZQcHkcLoG5SmVRTkRmZWLmAw5MTj4FxZlZFdbp7fD0Kwj2mf7k6P83N2wCkaC8Y2Xuj+&#13;
+XHXCrxm5k5HFo3XaOPTpdCwXajVW1V8y906UgTtzbd1gqX2sIvB8lelLs/YWEcUrGXXTY414Kf4e&#13;
+dV9B5YMgjE8lrv2n+kiq8OP6C1hKo2OYQwk0tWDu4ZxucEs9K27X/l1xE6/W2w5P7P4ZMVsyod6A&#13;
+mQk3s9T6VvyKneXbMlE/MGjHDThIxkFlLwA95Ro4myD4oRPR5CV6j9aZ9xT/MlL/+FrZOKl6YnfJ&#13;
+0ZhvZsNMI7B/Mzx+d4UXrQo74LRnoDF4hOTn9w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6d21d470-edab-46f0-b464-166a111861e4" Target="#_9131352d-9618-4eb4-a453-4f153d323109"><Timestamp>2024-03-24 23:48:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
